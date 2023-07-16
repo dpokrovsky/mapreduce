@@ -28,7 +28,7 @@ function handle(event) {
 }
 
 function read(file) {
-	const reader = new FileReader();
+  const reader = new FileReader();
   
   return new Promise((resolve, reject) => {
     reader.onload = event => resolve(event.target.result);
